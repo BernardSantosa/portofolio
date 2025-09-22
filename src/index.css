@@ -1,9 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  --background: #1e293b;
+  --background: #000000;
   --foreground: #ffffff;
   --card: #2a2e38;
   --card-foreground: #ffffff;

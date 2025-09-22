@@ -4,15 +4,17 @@ import { useState } from 'react'
 import Header from "./components/header"
 import Hero from "./components/hero"
 import About from './components/about'
+import ParticlesBackground from './components/particlesBackground'
 import './App.css'
 
 function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen text-foreground">
+      <ParticlesBackground />
       <Header />
       <main>
-        {/* <Hero /> */}
-        {/* <About /> */}
+        <Hero />
+        <About />
       </main>
     </div>
   )

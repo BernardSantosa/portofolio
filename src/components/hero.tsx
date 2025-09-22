@@ -1,6 +1,7 @@
 "use client"
 
 import { Github, Linkedin, Twitter, Download, ArrowDown } from "lucide-react"
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   const scrollToProjects = () => {
@@ -11,25 +12,35 @@ const Hero = () => {
   }
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/johndoe", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/johndoe", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/johndoe", label: "Twitter" },
+    { icon: Github, href: "https://github.com/BernardSantosa", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/bernard-santosa/", label: "LinkedIn" },
   ]
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16">
       <div className="max-w-4xl mx-auto text-center">
         {/* Main heading */}
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">John Doe</h1>
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">Bernard Santosa</h1>
 
         {/* Subheading */}
-        <h2 className="text-xl sm:text-2xl lg:text-3xl text-primary font-semibold mb-8">Senior Full-Stack Developer</h2>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl text-primary font-semibold mb-8">Aspiring Software Development & AI Engineer</h2>
 
         {/* Description */}
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed text-pretty">
-          I build elegant, scalable, and user-centric web applications. Passionate about clean code and creating
-          exceptional digital experiences.
-        </p>
+        <TypeAnimation
+          sequence={[
+            "Passionate about leveraging software to build intelligent and efficient solutions.",
+            1000,
+            "", 
+            500,
+            "Building modern apps with creativity and efficiency.",
+            1000,
+          ]}
+          wrapper="span"
+          cursor={true}
+          repeat={Infinity}
+        />
+      </p>
 
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-12">

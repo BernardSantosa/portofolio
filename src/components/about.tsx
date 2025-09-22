@@ -21,52 +21,12 @@ const About = () => {
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                With over 8 years of experience in full-stack development, I specialize in building modern web
-                applications that combine beautiful user interfaces with robust backend systems. My journey in
-                technology began with a Computer Science degree, and I've since worked with startups and enterprise
-                companies alike.
+                Hello! I'm Bernard Santosa, a third-year Computer Science student at Bina Nusantara University, focusing on the System Intelligent (AI) stream.
+                <br/><br/>
+                I have a special interest in exploring Arificial Intelligence and Machine learning concepts like neural networks and data analysis. 
+                Beside AI, i have a interest in software engineering field like especially backend. My main goal is to build things that solve real world problems. 
+                I am comitted to writing clean, effecient code and would like to working collaboratively to brings ideas to life.
               </p>
-
-              <p className="text-lg">
-                I'm passionate about writing clean, maintainable code and staying up-to-date with the latest
-                technologies. My expertise spans across React, Node.js, TypeScript, and cloud platforms, allowing me to
-                deliver end-to-end solutions that scale.
-              </p>
-
-              <p className="text-lg">
-                When I'm not coding, you'll find me contributing to open-source projects, mentoring junior developers,
-                or exploring new technologies. I believe in continuous learning and sharing knowledge with the developer
-                community.
-              </p>
-
-              <p className="text-lg">
-                I'm currently seeking opportunities where I can leverage my technical skills to build innovative
-                products that make a real impact. I thrive in collaborative environments and enjoy working with
-                cross-functional teams to bring ideas to life.
-              </p>
-            </div>
-
-            {/* Key highlights */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-              <div className="bg-card/50 p-6 rounded-lg border border-border">
-                <h3 className="text-primary font-semibold text-lg mb-2">8+ Years</h3>
-                <p className="text-muted-foreground">Professional Development Experience</p>
-              </div>
-
-              <div className="bg-card/50 p-6 rounded-lg border border-border">
-                <h3 className="text-primary font-semibold text-lg mb-2">50+ Projects</h3>
-                <p className="text-muted-foreground">Successfully Delivered</p>
-              </div>
-
-              <div className="bg-card/50 p-6 rounded-lg border border-border">
-                <h3 className="text-primary font-semibold text-lg mb-2">Full-Stack</h3>
-                <p className="text-muted-foreground">Frontend & Backend Expertise</p>
-              </div>
-
-              <div className="bg-card/50 p-6 rounded-lg border border-border">
-                <h3 className="text-primary font-semibold text-lg mb-2">Open Source</h3>
-                <p className="text-muted-foreground">Active Community Contributor</p>
-              </div>
             </div>
           </div>
         </div>
