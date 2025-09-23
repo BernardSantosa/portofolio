@@ -23,7 +23,7 @@ const Hero = () => {
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">Bernard Santosa</h1>
 
         {/* Subheading */}
-        <h2 className="text-xl sm:text-2xl lg:text-3xl text-primary font-semibold mb-8">Aspiring Software Development & AI Engineer</h2>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl text-primary font-semibold mb-8">Aspiring Software Developer & AI Engineer</h2>
 
         {/* Description */}
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed text-pretty">

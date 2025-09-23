@@ -5,6 +5,8 @@ import Header from "./components/header"
 import Hero from "./components/hero"
 import About from './components/about'
 import ParticlesBackground from './components/particlesBackground'
+import Projects from './components/project'
+import TechSkills from './components/techSkill'
 import './App.css'
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <main>
         <Hero />
         <About />
+        <TechSkills />
+        <Projects />
       </main>
     </div>
   )
