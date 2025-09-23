@@ -20,12 +20,12 @@ const About = () => {
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-8">About Me</h2>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p className="text-lg">
-                Hello! I'm Bernard Santosa, a third-year Computer Science student at Bina Nusantara University, focusing on the System Intelligent (AI) stream.
-                <br/><br/>
-                I have a special interest in exploring Arificial Intelligence and Machine learning concepts like neural networks and data analysis. 
-                Beside AI, i have a interest in software engineering field like especially backend. My main goal is to build things that solve real world problems. 
-                I am comitted to writing clean, effecient code and would like to working collaboratively to brings ideas to life.
+              <p className="text-lg text-justify">
+                Hello! I'm Bernard Santosa, a third-year Computer Science student at Bina Nusantara University, focusing on the Intelligent Systems (AI) stream.
+                <br /><br />
+                I have a strong interest in exploring Artificial Intelligence and Machine Learning concepts such as neural networks and data analysis.  
+                Besides AI, I’m also passionate about software engineering, especially backend development. My main goal is to build solutions that address real-world problems.  
+                I am committed to writing clean, efficient code and enjoy working collaboratively to bring ideas to life.
               </p>
             </div>
           </div>

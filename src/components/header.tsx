@@ -47,7 +47,7 @@ const Header = () => {
                   key={link.href}
                   onClick={() => scrollToSection(link.href)}
                   className="text-muted-foreground hover:text-primary transition-colors duration-200 px-3 py-2 text-sm font-medium"
-                >
+                > 
                   {link.label}
                 </button>
               ))}
