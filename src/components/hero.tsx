@@ -1,7 +1,28 @@
-"use client"
-
-import { Github, Linkedin, Twitter, Download, ArrowDown } from "lucide-react"
+import { Github, Linkedin, Download, ArrowDown } from "lucide-react"
 import { TypeAnimation } from "react-type-animation";
+import myCV from "/BernardSantosa-CVATS.pdf"
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.3,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { y: -20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.6, 
+    },
+  },
+};
 
 const Hero = () => {
   const scrollToProjects = () => {
@@ -18,9 +39,19 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16">
-      <div className="max-w-4xl mx-auto text-center">
+      <motion.div 
+        className="max-w-4xl mx-auto text-center"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        >
         {/* Main heading */}
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">Bernard Santosa</h1>
+        <motion.h1 
+          className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance"
+          variants={itemVariants}
+        >
+          Bernard Santosa
+        </motion.h1>
 
         {/* Subheading */}
         <h2 className="text-xl sm:text-2xl lg:text-3xl text-primary font-semibold mb-8">Aspiring Software Developer & AI Engineer</h2>
@@ -69,7 +100,7 @@ const Hero = () => {
           </button>
 
           <a
-            href="/john-doe-cv.pdf"
+            href={myCV}
             download
             className="border border-border hover:bg-card text-foreground px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center gap-2 min-w-[180px] justify-center"
           >
@@ -82,7 +113,7 @@ const Hero = () => {
         <div className="animate-bounce">
           <ArrowDown className="text-muted-foreground mx-auto" size={24} />
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }

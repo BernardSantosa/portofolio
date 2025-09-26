@@ -8,9 +8,9 @@ const Projects = () => {
             image: "/Course.jpg",
             title: "RECourse",
             description: "A web-based course recommendation engine designed to address the skills gap in the Indonesian job market by providing with tailored international course suggestions.",
-            techStack: ["Python", "HTML", "CSS", "JavaScript"],  
+            techStack: ["TypeScript", "Tailwind CSS", "Python", "Flask", "React"],  
             githubUrl: "https://github.com/BernardSantosa/Capstone-Project",
-            liveUrl: "https://recourse.up.railway.app/",
+            liveUrl: "https://recourse-production.up.railway.app/",
         },
     ]
 

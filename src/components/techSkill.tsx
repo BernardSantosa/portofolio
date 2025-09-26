@@ -2,15 +2,15 @@ const TechSkills = () => {
     const techCategory = [
         {
             Category: "Programming Languages",
-            Tech: ["C", "PHP (Native)", "HTML", "CSS", "JavaScript (for web)", "TypeScript (with React+Vite)", "Python"],
+            Tech: ["Python", "Java", "C", "TypeScript", "HTML/CSS", "PHP Native"]
         },
         {
             Category: "Frameworks",
-            Tech: ["Laravel", "React (TypeScript, Vite)", "JavaScript"],
+            Tech: ["React", "Flask", "Scikit-learn", "Pandas", "Laravel", "TailwindCSS"],
         },
         {
             Category: "Tools & DevOps",
-            Tech: ["Git", "MySQL"],
+            Tech: ["Vite", "Git", "GitHub", "Google Colab" ],
         },
     ]
 
