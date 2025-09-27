@@ -1,5 +1,15 @@
 import { useState } from "react";
 import { ExternalLink, Github } from "lucide-react"
+import { motion, type Variants } from "framer-motion";
+
+const itemUpVariant: Variants = {
+  hidden: {y: 30, opacity: 0},
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: { duration: 0.6, ease: "easeOut"}
+  }
+}
 
 const Projects = () => {
     const [expanded, setExpanded] = useState(false);
@@ -15,8 +25,13 @@ const Projects = () => {
     ]
 
     return (
-        <section id="projects" className="py-20 px-4     sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+        <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
+        <motion.div 
+        className="max-w-7xl mx-auto"
+        variants={itemUpVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ amount: 0.3 }}>
         {/* Section Header */}
         <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Featured Projects</h2>
@@ -113,7 +128,7 @@ const Projects = () => {
             View All Projects on GitHub
             </a>
         </div>
-        </div>
+        </motion.div>
     </section>
     )
 }

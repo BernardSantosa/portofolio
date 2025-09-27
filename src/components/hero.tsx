@@ -3,18 +3,8 @@ import { TypeAnimation } from "react-type-animation";
 import myCV from "/BernardSantosa-CVATS.pdf"
 import { motion } from "framer-motion";
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.3,
-    },
-  },
-};
-
-const itemVariants = {
-  hidden: { y: -20, opacity: 0 },
+const itemDownVariants = {
+  hidden: { y: -30, opacity: 0 },
   visible: {
     y: 0,
     opacity: 1,
@@ -41,17 +31,16 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16">
       <motion.div 
         className="max-w-4xl mx-auto text-center"
-        variants={containerVariants}
+        variants={itemDownVariants}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{ amount: 0.3 }}
         >
         {/* Main heading */}
-        <motion.h1 
-          className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance"
-          variants={itemVariants}
-        >
+        <h1 
+          className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
           Bernard Santosa
-        </motion.h1>
+        </h1>
 
         {/* Subheading */}
         <h2 className="text-xl sm:text-2xl lg:text-3xl text-primary font-semibold mb-8">Aspiring Software Developer & AI Engineer</h2>
