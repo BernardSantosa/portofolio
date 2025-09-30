@@ -4,6 +4,7 @@ import About from './components/about'
 import ParticlesBackground from './components/particlesBackground'
 import Projects from './components/project'
 import TechSkills from './components/techSkill'
+import Footer from './components/footer'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <TechSkills />
         <Projects />
       </main>
+      <Footer />
     </div>
   )
 }

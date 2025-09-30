@@ -25,9 +25,9 @@ const Projects = () => {
     ]
 
     return (
-        <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
+        <section id="projects" className="py-10 px-4 sm:px-6 lg:px-8 mb-0">
         <motion.div 
-        className="max-w-7xl mx-auto"
+        className="mx-auto"
         variants={itemUpVariant}
         initial="hidden"
         whileInView="visible"
