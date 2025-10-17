@@ -30,7 +30,7 @@ const TechSkills = () => {
         },
         {
             Category: "Tools & DevOps",
-            Tech: ["Vite", "Git", "GitHub", "Google Colab" ],
+            Tech: ["Vite", "Git", "GitHub", "Google Colab", "Power BI"],
         },
     ]
 

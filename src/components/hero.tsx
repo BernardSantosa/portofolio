@@ -1,6 +1,6 @@
 import { Github, Linkedin, Download, ArrowDown } from "lucide-react"
 import { TypeAnimation } from "react-type-animation";
-import myCV from "/BernardSantosaCVATS.pdf"
+import myCV from "/BernardSantosaCVATSwithFoto.pdf"
 import { motion } from "framer-motion";
 
 const itemDownVariants = {
