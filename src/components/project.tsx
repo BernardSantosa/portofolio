@@ -39,8 +39,8 @@ const Projects = () => {
       image: "/AI_Sal.jpg",
       title: "AI Job Salary Prediction",
       description:
-        "An experiment on estimating salary for AI job with specified features like company size, required skill, posted date, etc. Includes EDA, preprocessing, and model training/testing.",
-      techStack: ["Python", "Scikit-learn"],
+        "An experiment using Google Colab on estimating salary for AI job with specified features like company size, required skill, posted date, etc. Includes EDA, preprocessing, and model training/testing.",
+      techStack: ["Python", "Scikit-learn", "Google Colab"],
       liveUrl:
         "https://colab.research.google.com/drive/1vq0FfqLvLcQ2pestdlF42nlNsJc3kAiw?usp=sharing",
     },
@@ -156,7 +156,7 @@ const Projects = () => {
                           className="flex items-center gap-2 px-4 py-2 bg-white hover:bg-white/50 text-black text-sm font-medium rounded-lg transition-colors duration-200 flex-1 justify-center"
                         >
                           <ExternalLink size={16} />
-                          Google Colab
+                          Source
                         </a>
                       )}
                     </div>
