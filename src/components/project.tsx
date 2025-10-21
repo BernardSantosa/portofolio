@@ -51,7 +51,7 @@ const Projects = () => {
         "This project presents an Exploratory Data Analysis (EDA) of the Coursera 2021 dataset. Using Power BI, an interactive dashboard was created to visualize key insights, such as course popularity by domain, enrollment trends, and the distribution of difficulty levels.",
       techStack: ["Power BI"],
       liveUrl:
-        "https://app.powerbi.com/groups/9330dd23-fa7e-432d-b087-effc32e74f60/reports/139e6712-143d-4a01-9b9e-df313a97bc31/f21fd9922a1ae3070913?experience=power-bi",
+        "https://app.powerbi.com/view?r=eyJrIjoiMTAyYjJjOGUtZThlZi00MjQ4LWI1ZjEtNjdmOTZlY2VhMzRiIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D&pageName=f21fd9922a1ae3070913",
     },
   ];
 
