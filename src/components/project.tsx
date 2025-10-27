@@ -53,6 +53,15 @@ const Projects = () => {
       liveUrl:
         "https://app.powerbi.com/view?r=eyJrIjoiMTAyYjJjOGUtZThlZi00MjQ4LWI1ZjEtNjdmOTZlY2VhMzRiIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D&pageName=f21fd9922a1ae3070913",
     },
+    {
+      image: "/RestaurantRec.jpg",
+      title: "Restaurant Recommendation & Review Sentiment Analysis",
+      description:
+        "Exploring restaurant review dataset with preprocessing the data, using Naive Bayes Classifier to clasify sentiment of restaurant review and recommendation based on the review using Term Frequency-Inverse Document Frequency (TF-IDF).",
+      techStack: ["Python", "Scikit-learn", "Pandas", "Google Colab"],
+      liveUrl:
+        "https://colab.research.google.com/drive/1G-_UB8_qDV6HNorwErRxoNNR5nnHDIVv?usp=sharing",
+    },
   ];
 
   const allProjects = [...projects, ...collabProjects];
